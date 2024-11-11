@@ -21,7 +21,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --global user.email "cameronwatson98"protonmail.com"
+          git config --global user.email "cameronwatson98@protonmail.com"
           git config --global user.name "Cameron Watson"
           git commit -m "generated pdf"
           git push
