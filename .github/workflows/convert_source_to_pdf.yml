@@ -8,10 +8,10 @@ on:
 
 jobs:
   create-pdf:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: HTML to PDF
-        uses: fifsky/html-to-pdf-action@v0.1.0
+        uses: fifsky/html-to-pdf-action@master
         with:
           htmlFile: 'resume.html'
           outputFile: 'resume.pdf'
