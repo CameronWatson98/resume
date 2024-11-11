@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: HTML to PDF
-      - uses: fifsky/html-to-pdf-action@v0.1.0
+        uses: fifsky/html-to-pdf-action@v0.1.0
         with:
           htmlFile: 'resume.html'
           outputFile: 'resume.pdf'
