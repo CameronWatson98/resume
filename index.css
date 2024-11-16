@@ -166,6 +166,7 @@ th {
 }
 
 .header {
+    width: 100%;
     margin-bottom: calc(var(--line-height) * 2);
 }
 
