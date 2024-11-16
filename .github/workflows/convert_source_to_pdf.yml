@@ -16,7 +16,7 @@ jobs:
         with:
           htmlFile: 'resume.html'
           outputFile: 'resume.pdf'
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'       
+          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm", "printBackground": true}}'       
       - name: commit and push pdf
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
